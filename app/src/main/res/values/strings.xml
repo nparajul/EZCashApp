@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">EZ Cash App</string>
+    <string name="ez_cash_app">EZ Cash App</string>
+    <string name="welcome">Welcome</string>
+    <string name="Username">username</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="register">Register</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="logout">Logout</string>
+    <string name="log_out">Log Out</string>
+    <string name="friends">Friends</string>
+    <string name="transactions">Transactions</string>
+    <string name="chat">Chat</string>
+    <string name="exit">Exit</string>
+    <string name="user_name">User Name</string>
+    <string name="change_my_picture">Change My Picture</string>
+    <string name="change_my_status">CHANGE MY STATUS</string>
+    <string name="your_status">Your Status</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="status">Status</string>
+    <string name="public_token_result">public_token:\n%s</string>
+
+
+    <string name="content_exit">
+    Uh-oh! It seems something went wrong:\n\"%1$s\"
+
+   </string>
+
+    <string name="content_cancel">You left Link without completing the flow. Reason: %1$s</string>
+
+
+
+    <string-array name="account_types">
+        <item>Checking Account</item>
+        <item>Savings Account</item>
+    </string-array>
+</resources>

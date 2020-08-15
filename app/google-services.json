@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "325115969832",
+    "firebase_url": "https://seniorproject-1b42a.firebaseio.com",
+    "project_id": "seniorproject-1b42a",
+    "storage_bucket": "seniorproject-1b42a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325115969832:android:f94d7e6ffbadca3328901d",
+        "android_client_info": {
+          "package_name": "com.example.ezcashapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325115969832-cfu215kl03nn8j9h4hhd806p0l8a9fri.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ezcashapp",
+            "certificate_hash": "5be14d7cf9439a2622d14a529e95f009a72c262b"
+          }
+        },
+        {
+          "client_id": "325115969832-hpha6eilcffger44gm7pd4lv1unrbaar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC80pqIqVuT4F9VZQ7ySf8Tr5sovq7kB58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325115969832-hpha6eilcffger44gm7pd4lv1unrbaar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

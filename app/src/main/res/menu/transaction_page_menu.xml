@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main_account_settings"
+        android:title="Account Settings" />
+    <item
+        android:id="@+id/main_add_bank"
+        android:title="Add my bank" />
+</menu>

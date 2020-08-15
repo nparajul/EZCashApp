@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MessagesActivity">
+
+    <include
+        android:id="@+id/chat_page_toolbar"
+        layout="@layout/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/messages_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/linearLayout"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/chat_page_toolbar">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <ImageButton
+            android:id="@+id/chat_add_btn"
+            android:layout_width="31dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:padding="10dp"
+            android:src="@mipmap/icon_plus" />
+
+        <EditText
+            android:id="@+id/chat_message_view"
+            android:layout_width="51dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:background="@android:color/white"
+            android:ems="10"
+            android:hint="Enter Message..."
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingTop="14dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="12dp" />
+
+        <ImageButton
+            android:id="@+id/chat_send_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:alpha="0.5"
+            android:background="@color/lightgreen"
+            android:padding="10dp"
+            android:src="@mipmap/send_icon" />
+    </LinearLayout>
+
+</RelativeLayout>
