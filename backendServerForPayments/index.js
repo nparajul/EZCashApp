@@ -17,8 +17,8 @@ app.listen(3000, ()=>{
     console.log("Listening on port 3000...")
 })
 
-const appKey = '2CNCN3gmQt3upGCGvTUrNBYqMAEWDrphRG9cZzPzrOG4WrnB7b';
-const appSecret = 'WhrqGxz1ucY3fJM5N2DrszGJpuS1nG3OUxoKIGb9ItHDoakLC9';
+const appKey = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'; // dwolla key
+const appSecret = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'; // dwolla secret
 
 const client = new dwolla.Client({
   key: appKey,
@@ -27,8 +27,8 @@ const client = new dwolla.Client({
 });
 
 const plaidClient = new plaid.Client({
-    clientID: '5f1a0831b89a9900124d8d15',
-    secret: 'f9df9903fd3f1383e95a25584f0b7a',
+    clientID: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', // plaid client ID
+    secret: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx', // plaid secret
     env: plaid.environments.sandbox,
     options: { version: '2019-05-29' }
   })
